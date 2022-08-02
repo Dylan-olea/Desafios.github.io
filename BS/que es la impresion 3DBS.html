@@ -26,39 +26,59 @@
   <body>
     <!-- inicio de la pagina + menu de opciones -->
     <header>
-      <nav class="navbar bg-light">
+      <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="../imagenes/My project.png" alt="logo" width="90" />
+            <img src="/imagenes/My project.png" alt="" width="74" />
           </a>
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="BSindex.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="quienes somosBS.html">Quienes somos?</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="que es la impresion 3DBS.html"
-                >Que es la impresion 3D?</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="nuestros trabajosBS.html"
-                >Nuestros trabajos</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="donde encontrarnosBS.html"
-                >Donde encontrarnos?</a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- fin de la pagina + de menu de opciones -->
-      <!-- inicio de que es la impresion 3d-->
-      <div class="conteiner">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="BSindex.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quienes somosBS.html"
+                  >Quienes somos?</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="que es la impresion 3DBS.html">
+                  Que es la impresion 3D?
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="nuestros trabajosBS.html">
+                  Nuestros trabajos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="donde encontrarnosBS.html">
+                  Donde encontrarnos?</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- fin de la pagina + de menu de opciones -->
+        <!-- inicio de que es la impresion 3d-->
+        <div class="conteiner">
         <h1 class="impresion__3d__titulo">¿Que es la impresion 3D?</h1>
         <p class="impresion__3d__texto">
           La impresion 3D es una tecnología que hoy está disponible, que está
@@ -98,73 +118,74 @@
         </p>
       </div>
       <div
-        id="carouselExampleFade"
-        class="carousel slide carousel-fade"
-        data-bs-ride="carousel"
+      id="carouselExampleFade"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+          src="/imagenes/impresora1.jpg"
+          class="d-block w-100"
+          alt="..."
+          width="1200"
+          height="1200"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+          src="/imagenes/impresora2.jpg"
+          class="d-block w-100"
+          alt="..."
+          width="1200"
+          height="1200"
+          />
+        </div>
+        <div class="carousel-item">
             <img
-              src="/imagenes/impresora1.jpg"
-              class="d-block w-100"
-              alt="..."
-              width="1200"
-              height="1200"
+            src="/imagenes/impresora3.jpg"
+            class="d-block w-100"
+            alt="..."
+            width="1200"
+            height="1200"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="/imagenes/impresora2.jpg"
-              class="d-block w-100"
-              alt="..."
-              width="1200"
-              height="1200"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="/imagenes/impresora3.jpg"
-              class="d-block w-100"
-              alt="..."
-              width="1200"
-              height="1200"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="/imagenes/materiales3d.jpg"
-              class="d-block w-100"
-              alt="..."
-              width="1200"
-              height="1200"
+            src="/imagenes/materiales3d.jpg"
+            class="d-block w-100"
+            alt="..."
+            width="1200"
+            height="1200"
             />
           </div>
         </div>
         <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleFade"
-          data-bs-slide="prev"
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleFade"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleFade"
+      data-bs-slide="next"
+      >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
     </header>
     <!-- finalizacion de que es la impresion 3d -->
     <!-- JavaScript Bundle with Popper -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
   </body>
