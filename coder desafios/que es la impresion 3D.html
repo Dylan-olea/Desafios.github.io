@@ -58,7 +58,7 @@
       </nav>
       <!-- fin de la pagina + de menu de opciones -->
       <!-- inicio de que es la impresion 3d-->
-      <div class="contenedor">
+      <div class="conteiner-fluid">
         <h1 class="impresion__3d__titulo">¿Que es la impresion 3D?</h1>
         <p class="impresion__3d__texto">
           La impresion 3D es una tecnología que hoy está disponible, que está
@@ -96,43 +96,30 @@
           del ser humano como corazones, riñones,etc con materiles organicos
           obviamente
         </p>
-        <div class="imagenes-3d">
-          <section>
-            <article>
-              <img
-                src="../imagenes/impresora1.jpg"
-                alt="bonita1"
-                width="400"
-                height="400"
-              />
-            </article>
-            <article>
-              <img
-                src="../imagenes/impresora2.jpg"
-                alt="bonita2"
-                width="400"
-                height="400"
-              />
-            </article>
-            <article>
-              <img
-                src="../imagenes/impresora3.jpg"
-                alt="bonita3"
-                width="400"
-                height="400"
-              />
-            </article>
-            <article>
-              <img
-                src="../imagenes/materiales3d.jpg"
-                alt="material"
-                width="400"
-                height="400"
-              />
-            </article>
-          </section>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/imagenes/impresora1.jpg" class="d-block w-100" alt="..." width="1200" height="1200">
+            </div>
+            <div class="carousel-item">
+              <img src="/imagenes/impresora2.jpg" class="d-block w-100" alt="..." width="1200" height="1200">
+            </div>
+            <div class="carousel-item">
+              <img src="/imagenes/impresora3.jpg" class="d-block w-100" alt="..." width="1200" height="1200">
+            </div>
+            <div class="carousel-item">
+              <img src="/imagenes/materiales3d.jpg" class="d-block w-100" alt="..." width="1200" height="1200">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-      </div>
     </header>
     <!-- finalizacion de que es la impresion 3d -->
     <!-- JavaScript Bundle with Popper -->
