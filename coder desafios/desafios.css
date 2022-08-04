@@ -12,11 +12,17 @@ body {
     #0099ff,
     rgb(94, 168, 218)
   );
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 header {
-  width: 90%;
-  margin: 0 auto;
+}
+
+main {
 }
 
 img {
@@ -26,98 +32,6 @@ img {
 /* grid mas vista mobile*/
 .contenedor {
   font-size: 160%;
-  padding: 8px;
-  display: grid;
-  min-width: 100vh;
-  grid-gap: 10px;
-  grid-template-rows: auto 1fr auto;
-  grid-template-areas:
-    auto 3fr auto
-    "contenedor" "contenedor" "contenedor"
-    "listado-de-menu" "listado-de-menu" "listado-de-menu"
-    "subtitulo" "subtitulo" "subtitulo"
-    "quienes__somos__titulo" "quienes__somos__titulo" "quienes__somos__titulo"
-    "quienes__somos__texto" "quienes__somos__texto" "quienes__somos__texto"
-    "impresion__3d__titulo" "impresion__3d__titulo" "impresion__3d__titulo"
-    "impresion__3d__texto" "impresion__3d__texto" "impresion__3d__texto"
-    "nuestros__trabajos__titulo" "nuestros__trabajos__titulo" "nuestros__trabajos__titulo"
-    "nuestros__trabajos__texto" "nuestros__trabajos__texto" "nuestros__trabajos__texto"
-    "donde__encontrarnos__texto" "donde__encontrarnos__texto" "donde__encontrarnos__texto"
-    "donde__encontrarnos__logos" "donde__encontrarnos__logos" "donde__encontrarnos__logos"
-    "imagenes-3d" "imagenes-3d" "imagenes-3d"
-    "imagenes-nuestros-trabajos" "imagenes-nuestros-trabajos" "imaneges-nuestros-trabajos";
-}
-
-.contenedor > div,
-.contenedor .listado-de-menu,
-.contenedor .subtitulo,
-.contenedor .quienes__somos__titulo,
-.contenedor .quienes__somos__texto,
-.contenedor .impresion__3d__titulo,
-.contenedor .impresion__3d__texto,
-.contenedor .nuestros__trabajos__titulo,
-.contenedor .nuestros__trabajos__texto,
-.contenedor .donde__encontrarnos__texto,
-.contenedor .donde__encontrarnos__logos,
-.contenedor .imagenes-3d,
-.contenedor .imagenes-nuestros-trabajos {
-  padding: 20px;
-  border-radius: 4px;
-  grid-template-areas:
-    contenedor
-    listado-de-menu
-    subtitulo
-    quienes__somos__texto
-    quienes__somos__titulo
-    impresion__3d__titulo
-    impresion__3d__texto
-    nuestros__trabajos__titulo
-    nuestros__trabajos__textos
-    donde__encontrarnos__texto
-    donde__encontrarnos__logos
-    imagenes-3d
-    imagenes-nuestros-trabajos;
-}
-
-.contenedor .listado-de-menu,
-.contenedor .subtitulo {
-  grid-column-start: 1;
-  grid-column-end: 1;
-  grid-template-areas:
-    contenedor
-    listado-de-menu
-    subtitulo;
-}
-
-.contenedor .quienes__somos__titulo,
-.contenedor .quienes__somos__texto,
-.contenedor .impresion__3d__titulo,
-.contenedor .impresion__3d__texto,
-.contenedor .nuestros__trabajos__titulo,
-.contenedor .nuestros__trabajos__texto,
-.contenedor .donde__encontrarnos__titulo,
-.contenedor .donde__encontrarnos__texto {
-  grid-column: span 3;
-  grid-template-areas:
-    contenedor
-    quienes__somos__texto
-    quienes__somos__titulo
-    impresion__3d__titulo
-    impresion__3d__texto
-    nuestros__trabajos__titulo
-    nuestros__trabajos__textos
-    donde__encontrarnos__texto;
-}
-
-.contenedor .imagenes-3d,
-.contenedor .imagenes-nuestros-trabajos,
-.contenedor .donde__encontrarnos__logos {
-  grid-column: span 3;
-  grid-template-areas:
-    contenedor
-    donde__encontrarnos__logos
-    imagenes-3d
-    imagenes-nuestros-trabajos;
 }
 
 .listado-de-menu {
@@ -138,14 +52,13 @@ img {
 .quienes__somos__titulo {
   text-align: center;
   font-size: 160%;
-  margin-top: -20rem;
+  margin-top: 3rem;
 }
 
 .quienes__somos__texto {
   text-align: center;
   font-size: 100%;
   margin-top: 2rem;
-  margin-top: -10rem;
 }
 
 /* fin de "quienes somos" */
