@@ -12,6 +12,7 @@ body {
     #0099ff,
     rgb(94, 168, 218)
   );
+  background-image: no-repeat;
   display: grid;
   height: 100vh;
   grid-template-rows: auto 1fr auto;
@@ -32,6 +33,10 @@ img {
   display: flex;
   gap: 1rem;
   align-items: center;
+  justify-content: flex-end;
+  transition: 6s;
+  margin-top: -5.2rem;
+  transform: rotate(360deg);
 }
 
 .titulo-principal {
@@ -40,8 +45,8 @@ img {
   margin-top: 10rem;
   font-size: 260%;
   text-decoration: underline;
-  /*  transition: 10s;
-  transform: translate(100px, 60px); */
+  transition: 10s;
+  transform: translate(100px, 60px);
 }
 
 /*  inicio de "quienes somos" */
@@ -63,17 +68,25 @@ img {
 .impresion__3d__titulo {
   margin-bottom: -8rem;
   text-align: center;
-  margin-top: -13rem;
-  transition: 8s;
+  margin-top: 5rem;
+  font-size: 260%;
+  /*   transition: 8s; */
+  transform: translate(40px, 10px);
+}
+
+.impresion__3d__titulo2 {
+  text-align: center;
+  font-size: 260%;
+  /*  transition: 8s; */
   transform: translate(40px, 10px);
 }
 
 .impresion__3d__texto {
-  margin-bottom: 16rem;
-  font-size: 100%;
+  margin-bottom: 5rem;
+  font-size: 160%;
   text-align: center;
-  margin-top: -10rem;
-  transition: 14s;
+  margin-top: 7rem;
+  /* transition: 14s; */
   transform: translate(10px, 40px);
 }
 
