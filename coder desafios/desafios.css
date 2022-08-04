@@ -36,11 +36,12 @@ img {
 
 .titulo-principal {
   display: flex;
-  justify-items: center;
-  margin-top: -100rem;
-  font-size: 160%;
-  transition: 10s;
-  transform: translate(100px, 60px);
+  justify-content: center;
+  margin-top: 10rem;
+  font-size: 260%;
+  text-decoration: underline;
+  /*  transition: 10s;
+  transform: translate(100px, 60px); */
 }
 
 /*  inicio de "quienes somos" */
