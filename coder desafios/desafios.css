@@ -32,6 +32,7 @@ img {
   grid-gap: 10px;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
+    auto 3fr auto
     "contenedor" "contenedor" "contenedor"
     "listado-de-menu" "listado-de-menu" "listado-de-menu"
     "subtitulo" "subtitulo" "subtitulo"
@@ -81,7 +82,7 @@ img {
 .contenedor .listado-de-menu,
 .contenedor .subtitulo {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 1;
   grid-template-areas:
     contenedor
     listado-de-menu
@@ -129,8 +130,8 @@ img {
   display: flex;
   justify-content: center;
   font-size: 160%;
-  transition: 16s;
-  transform: translate(80px, 60px);
+  transition: 10s;
+  transform: translate(100px, 60px);
 }
 
 /*  inicio de "quienes somos" */
