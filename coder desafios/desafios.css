@@ -19,12 +19,6 @@ body {
   margin: 0 auto;
 }
 
-header {
-}
-
-main {
-}
-
 img {
   max-width: 90%;
 }
@@ -40,9 +34,10 @@ img {
   align-items: center;
 }
 
-.subtitulo {
+.titulo-principal {
   display: flex;
-  justify-content: center;
+  justify-items: center;
+  margin-top: -100rem;
   font-size: 160%;
   transition: 10s;
   transform: translate(100px, 60px);
