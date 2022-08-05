@@ -54,12 +54,13 @@ img {
   text-align: center;
   font-size: 160%;
   margin-top: 3rem;
+  text-decoration: underline;
 }
 
 .quienes__somos__texto {
   text-align: center;
   font-size: 100%;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 /* fin de "quienes somos" */
@@ -69,24 +70,35 @@ img {
   margin-bottom: -8rem;
   text-align: center;
   margin-top: 5rem;
+  text-decoration: underline;
   font-size: 260%;
-  /*   transition: 8s; */
+  transition: 8s;
   transform: translate(40px, 10px);
 }
 
 .impresion__3d__titulo2 {
   text-align: center;
+  text-decoration: underline;
   font-size: 260%;
-  /*  transition: 8s; */
+  transition: 8s;
   transform: translate(40px, 10px);
 }
 
 .impresion__3d__texto {
   margin-bottom: 5rem;
-  font-size: 160%;
+  font-size: 140%;
   text-align: center;
   margin-top: 7rem;
-  /* transition: 14s; */
+  transition: 14s;
+  transform: translate(10px, 40px);
+}
+
+.impresion__3d__texto2 {
+  margin-bottom: 5rem;
+  font-size: 160%;
+  text-align: center;
+  margin-top: 2rem;
+  transition: 14s;
   transform: translate(10px, 40px);
 }
 
@@ -110,22 +122,22 @@ article {
 /* inicio de "nuestros trabajos" */
 .nuestros__trabajos__titulo {
   text-align: center;
-  margin-top: -24rem;
-  font-size: 160%;
-  height: 100px;
+  margin-top: 6rem;
+  font-size: 260%;
+  text-decoration: underline;
 }
 
 .nuestros__trabajos__texto {
   text-align: center;
-  font-size: 100%;
-  margin-top: -12rem;
+  font-size: 160%;
+  margin-top: 2rem;
   margin-bottom: 1.5rem;
 }
 /* fin de "nuestros trabajos */
 /* inicio de "donde encontrarnos" */
 .donde__encontrarnos__titulo {
   text-align: center;
-  margin-top: -20rem;
+  margin-top: 1rem;
   font-size: 160%;
 }
 
