@@ -34,9 +34,6 @@ img {
   gap: 1rem;
   align-items: center;
   justify-content: flex-end;
-  transition: 10s;
-  margin-top: -5.2rem;
-  transform: rotate(360deg);
 }
 
 .titulo-principal {
@@ -45,22 +42,22 @@ img {
   margin-top: 10rem;
   font-size: 260%;
   text-decoration: underline;
-  transition: 20s;
-  transform: translate(100px, 60px);
+  transition: 10s;
+  transform: skew(100deg, 60deg);
 }
 
 /*  inicio de "quienes somos" */
 .quienes__somos__titulo {
   text-align: center;
-  font-size: 160%;
+  font-size: 260%;
   margin-top: 3rem;
   text-decoration: underline;
 }
 
 .quienes__somos__texto {
   text-align: center;
-  font-size: 100%;
-  margin-top: 4rem;
+  font-size: 140%;
+  margin-top: 3rem;
 }
 
 /* fin de "quienes somos" */
@@ -98,24 +95,8 @@ img {
   font-size: 160%;
   text-align: center;
   margin-top: 2rem;
-  transition: 14s;
+  transition: 20s;
   transform: translate(10px, 40px);
-}
-
-section {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  flex-wrap: wrap;
-}
-
-article {
-  display: flex;
-  flex: 0 1 300px;
-  flex-direction: column;
-  border: 5px solid black;
-  border-radius: 5rem;
-  padding: 2rem;
 }
 
 /* fin de "que es la impresion 3d" */
@@ -125,6 +106,9 @@ article {
   margin-top: 6rem;
   font-size: 260%;
   text-decoration: underline;
+  transition: 10s;
+  margin-top: 5.2rem;
+  transform: rotate(360deg);
 }
 
 .nuestros__trabajos__texto {
@@ -143,35 +127,16 @@ article {
 
 .donde__encontrarnos__texto {
   text-align: center;
-  margin-top: -14rem;
+  margin-top: 3rem;
   font-size: 160%;
 }
 
 .donde__encontrarnos__logos {
   text-align: center;
-  margin-top: -2rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
   gap: 3rem;
 }
 
 /* fin de nuestro trabajo */
-
-@media screen and (max-width: 786px) {
-  .contenedor {
-    grid-template-areas:
-      contenedor
-      listado-de-menu
-      subtitulo
-      quienes__somos__texto
-      quienes__somos__titulo
-      impresion__3d__titulo
-      impresion__3d__texto
-      nuestros__trabajos__titulo
-      nuestros__trabajos__textos
-      donde__encontrarnos__texto
-      donde__encontrarnos__logos
-      imagenes-3d
-      imagenes-nuestros-trabajos;
-  }
-}
