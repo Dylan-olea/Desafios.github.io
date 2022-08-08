@@ -19,6 +19,21 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+/* 
+header {
+  height: 100%;
+  margin: 0;
+} */
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/imagenes/3d-printer.png);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 img {
   max-width: 90%;
@@ -32,7 +47,7 @@ img {
 .listado-de-menu {
   display: flex;
   gap: 1rem;
-  align-items: center;
+  /*  align-items: center; */
   justify-content: flex-end;
   transition: 6s;
   margin-top: -5.2rem;
@@ -42,11 +57,14 @@ img {
 .titulo-principal {
   display: flex;
   justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   margin-top: 10rem;
   font-size: 260%;
   text-decoration: underline;
   transition: 10s;
-  transform: translate(100px, 60px);
+  transform: translate(-50%, 50%);
 }
 
 /*  inicio de "quienes somos" */
