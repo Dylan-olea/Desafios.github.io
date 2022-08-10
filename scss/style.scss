@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 10vh;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  ul {
+    list-style: none;
+    display: flex;
+  }
+}
