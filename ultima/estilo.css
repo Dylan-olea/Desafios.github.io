@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Teko", sans-serif;
+  color: black;
+  background-image: linear-gradient(
+    to top,
+    #ebf2f7,
+    #0099ff,
+    rgb(94, 168, 218)
+  );
+  background-image: no-repeat;
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 90%;
+}
+
+/* grid mas vista mobile*/
+.contenedor {
+  font-size: 160%;
+}
+
+.listado-de-menu {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.titulo-principal {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  font-size: 260%;
+  text-decoration: underline;
+}
+
+/*  inicio de "quienes somos" */
+
+.quienes__somos__titulo {
+  text-align: center;
+  font-size: 260%;
+  margin-top: 3rem;
+  text-decoration: underline;
+}
+
+.quienes__somos__texto {
+  text-align: center;
+  font-size: 140%;
+  margin-top: 3rem;
+}
+
+/* fin de "quienes somos" */
+/*  inicio de "que es la impresion 3D" */
+
+.impresion__3d__titulo {
+  margin-bottom: -8rem;
+  text-align: center;
+  margin-top: 5rem;
+  text-decoration: underline;
+  font-size: 260%;
+}
+
+.impresion__3d__titulo2 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 260%;
+}
+
+.impresion__3d__texto {
+  margin-bottom: 5rem;
+  font-size: 140%;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.impresion__3d__texto2 {
+  margin-bottom: 5rem;
+  font-size: 160%;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* fin de "que es la impresion 3d" */
+/* inicio de "nuestros trabajos" */
+.nuestros__trabajos__titulo {
+  text-align: center;
+  margin-top: 6rem;
+  font-size: 260%;
+  text-decoration: underline;
+  transition: 10s;
+}
+
+.nuestros__trabajos__texto {
+  text-align: center;
+  font-size: 160%;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+/* fin de "nuestros trabajos */
+/* inicio de "donde encontrarnos" */
+.donde__encontrarnos__titulo {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 160%;
+}
+
+.donde__encontrarnos__texto {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 160%;
+}
+
+.donde__encontrarnos__logos {
+  text-align: center;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+/* fin de nuestro trabajo */
