@@ -85,8 +85,10 @@ article {
   /* transition: 10s; */
   transform: translate(-50%, -50%);
 }
+
 /* fin del navbar y header */
 /* inicio de quienes somos */
+
 .quienes__somos__titulo {
   text-align: center;
   font-size: 160%;
