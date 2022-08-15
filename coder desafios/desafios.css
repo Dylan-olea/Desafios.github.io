@@ -44,6 +44,23 @@ img {
   font-size: 160%;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+article {
+  display: flex;
+  flex: 0 1 300px;
+  flex-direction: column;
+  border: 5px solid black;
+  border-radius: 5rem;
+  padding: 2rem;
+}
+
+/* Inicio del navbar y header */
 .listado-de-menu {
   display: flex;
   gap: 3rem;
@@ -68,7 +85,7 @@ img {
   /* transition: 10s; */
   transform: translate(-50%, -50%);
 }
-
+/* fin del navbar y header */
 /* inicio de quienes somos */
 .quienes__somos__titulo {
   text-align: center;
@@ -122,24 +139,9 @@ img {
   transform: translate(10px, 40px);
 }
 
-section {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  flex-wrap: wrap;
-}
-
-article {
-  display: flex;
-  flex: 0 1 300px;
-  flex-direction: column;
-  border: 5px solid black;
-  border-radius: 5rem;
-  padding: 2rem;
-}
-
 /* fin de "que es la impresion 3d" */
 /* inicio de "nuestros trabajos" */
+
 .nuestros__trabajos__titulo {
   text-align: center;
   margin-top: 6rem;
@@ -153,8 +155,10 @@ article {
   margin-top: 2rem;
   margin-bottom: 1.5rem;
 }
+
 /* fin de "nuestros trabajos */
 /* inicio de "donde encontrarnos" */
+
 .donde__encontrarnos__titulo {
   text-align: center;
   margin-top: 1rem;
@@ -176,22 +180,3 @@ article {
 }
 
 /* fin de nuestro trabajo */
-
-/* @media screen and (max-width: 786px) {
-  .contenedor {
-    grid-template-areas:
-      contenedor
-      listado-de-menu
-      subtitulo
-      quienes__somos__texto
-      quienes__somos__titulo
-      impresion__3d__titulo
-      impresion__3d__texto
-      nuestros__trabajos__titulo
-      nuestros__trabajos__textos
-      donde__encontrarnos__texto
-      donde__encontrarnos__logos
-      imagenes-3d
-      imagenes-nuestros-trabajos;
-  }
-} */
