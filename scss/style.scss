@@ -3,25 +3,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-nav {
-  height: 10vh;
-  width: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-
-  ul {
-    list-style: none;
-    display: flex;
-    li {
-      margin-left: 2rem;
-
-      a {
-        text-decoration: none;
-        color: black;
-        text-transform: uppercase;
-      }
-    }
-  }
-}
