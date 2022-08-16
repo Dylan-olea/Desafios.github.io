@@ -1,0 +1,11 @@
+.listado__de--menu {
+  display: flex;
+  gap: 3rem;
+  font-size: 180%;
+  text-decoration: none;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
