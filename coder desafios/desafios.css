@@ -61,7 +61,7 @@ article {
 }
 
 /* Inicio del navbar y header */
-.listado-de-menu {
+.listado__de--menu {
   display: flex;
   gap: 3rem;
   font-size: 180%;
@@ -89,14 +89,14 @@ article {
 /* fin del navbar y header */
 /* inicio de quienes somos */
 
-.quienes__somos__titulo {
+.quienes__somos--titulo {
   text-align: center;
   font-size: 160%;
   margin-top: 3rem;
   text-decoration: underline;
 }
 
-.quienes__somos__texto {
+.quienes__somos--texto {
   text-align: center;
   font-size: 100%;
   margin-top: 4rem;
@@ -105,7 +105,7 @@ article {
 /* fin de "quienes somos" */
 /*  inicio de "que es la impresion 3D" */
 
-.impresion__3d__titulo {
+.impresion__3d--titulo {
   margin-bottom: -8rem;
   text-align: center;
   margin-top: 5rem;
@@ -115,7 +115,7 @@ article {
   transform: translate(40px, 10px);
 }
 
-.impresion__3d__titulo2 {
+.impresion__3d--titulo2 {
   text-align: center;
   text-decoration: underline;
   font-size: 180%;
@@ -123,7 +123,7 @@ article {
   transform: translate(40px, 10px);
 }
 
-.impresion__3d__texto {
+.impresion__3d--texto {
   margin-bottom: 5rem;
   font-size: 120%;
   text-align: center;
@@ -132,7 +132,7 @@ article {
   transform: translate(10px, 40px);
 }
 
-.impresion__3d__texto2 {
+.impresion__3d--texto2 {
   margin-bottom: 5rem;
   font-size: 120%;
   text-align: center;
@@ -144,14 +144,14 @@ article {
 /* fin de "que es la impresion 3d" */
 /* inicio de "nuestros trabajos" */
 
-.nuestros__trabajos__titulo {
+.nuestros__trabajos--titulo {
   text-align: center;
   margin-top: 6rem;
   font-size: 260%;
   text-decoration: underline;
 }
 
-.nuestros__trabajos__texto {
+.nuestros__trabajos--texto {
   text-align: center;
   font-size: 160%;
   margin-top: 2rem;
@@ -161,13 +161,13 @@ article {
 /* fin de "nuestros trabajos */
 /* inicio de "donde encontrarnos" */
 
-.donde__encontrarnos__titulo {
+.donde__encontrarnos--titulo {
   text-align: center;
   margin-top: 1rem;
   font-size: 160%;
 }
 
-.donde__encontrarnos__texto {
+.donde__encontrarnos--texto {
   text-align: center;
   margin-top: 3rem;
   font-size: 160%;
