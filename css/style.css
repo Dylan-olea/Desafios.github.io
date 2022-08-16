@@ -32,8 +32,8 @@ h2 {
 section {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   gap: 1rem;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -44,27 +44,6 @@ article {
   border: 3px solid black;
   border-radius: 2rem;
   padding: 2rem;
-}
-
-/* .fondo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/fondo1.jpg);
-  height: 30%;
-  border-radius: 1%;
-  opacity: 0.8;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-} */
-.listado__de--menu {
-  display: flex;
-  gap: 2rem;
-  font-size: 180%;
-  text-decoration: none;
-  justify-content: flex-end;
-  top: 50%;
-  left: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
