@@ -66,7 +66,6 @@ article {
   gap: 3rem;
   font-size: 180%;
   text-decoration: none;
-  /* transition: 6s; */
   text-align: center;
   position: absolute;
   top: 50%;
@@ -82,7 +81,6 @@ article {
   margin-top: 6rem;
   font-size: 260%;
   text-decoration: underline;
-  /* transition: 10s; */
   transform: translate(-50%, -50%);
 }
 
@@ -111,7 +109,6 @@ article {
   margin-top: 5rem;
   text-decoration: underline;
   font-size: 200%;
-  /*  transition: 8s; */
   transform: translate(40px, 10px);
 }
 
@@ -119,7 +116,6 @@ article {
   text-align: center;
   text-decoration: underline;
   font-size: 180%;
-  /* transition: 8s; */
   transform: translate(40px, 10px);
 }
 
@@ -128,7 +124,6 @@ article {
   font-size: 120%;
   text-align: center;
   margin-top: 7rem;
-  /* transition: 14s; */
   transform: translate(10px, 40px);
 }
 
@@ -137,7 +132,7 @@ article {
   font-size: 120%;
   text-align: center;
   margin-top: 2rem;
-  /* transition: 14s; */
+
   transform: translate(10px, 40px);
 }
 

@@ -22,3 +22,15 @@ section {
 article {
   @include article;
 }
+
+@mixin listado__de--menu {
+  display: flex;
+  gap: 3rem;
+  font-size: 120%;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+.listado__de--menu {
+  @include listado__de--menu;
+}

@@ -8,7 +8,12 @@ body,
 html {
   font-family: "Teko", sans-serif;
   color: black;
-  background-image: linear-gradient(to top, #ebf2f7, #0099ff, rgb(94, 168, 218));
+  background-image: linear-gradient(
+    to top,
+    #ebf2f7,
+    #0099ff,
+    rgb(94, 168, 218)
+  );
   background-repeat: no-repeat;
   height: 100%;
   grid-template-rows: auto 1fr auto;
@@ -44,6 +49,14 @@ article {
   border: 3px solid black;
   border-radius: 2rem;
   padding: 2rem;
+}
+
+.listado__de--menu {
+  display: flex;
+  gap: 3rem;
+  font-size: 120%;
+  justify-content: flex-end;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
