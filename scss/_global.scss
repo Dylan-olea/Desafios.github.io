@@ -35,6 +35,8 @@ h2 {
 
 .contenedor {
   &__3d--titulo {
+    text-align: center;
+    margin-top: 3rem;
     font-weight: map-get($font-weights, bold);
 
     &:hover {

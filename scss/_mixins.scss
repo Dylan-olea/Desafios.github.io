@@ -34,3 +34,12 @@ article {
 .listado__de--menu {
   @include listado__de--menu;
 }
+
+@mixin titulo-principal {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.titulo-principal {
+  @include titulo-principal;
+}

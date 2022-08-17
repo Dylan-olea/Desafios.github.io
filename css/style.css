@@ -30,6 +30,8 @@ h2 {
 }
 
 .contenedor__3d--titulo, .contenedor__3d--texto {
+  text-align: center;
+  margin-top: 3rem;
   font-weight: 700;
 }
 .contenedor__3d--titulo:hover, .contenedor__3d--texto:hover {
@@ -62,6 +64,11 @@ article {
   font-size: 120%;
   justify-content: flex-end;
   text-decoration: none;
+}
+
+.titulo-principal {
+  text-align: center;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
