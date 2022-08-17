@@ -1,5 +1,11 @@
 $text-colors: black;
-$Queeslaimpresion3d: (
-  impresion__3d--titulo1: underline,
-  impresion__3d--titulo2: underline,
+$mayuscula-titulo: (
+  contenedor__3d--titulo1: underline,
+  contenedor__3d--titulo2: underline,
+);
+
+$font-weights: (
+  "regular": 200,
+  "medium": 500,
+  "bold": 700,
 );
