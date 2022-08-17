@@ -34,10 +34,7 @@ h2 {
 }
 
 .contenedor {
-  &__3d--titulo1 {
-    text-decoration: map-get(
-      $mayuscula-titulo: contenedor__3d--titulo1,
-      contenedor__3d--titulo2
-    );
+  &__3d--titulo {
+    font-weight: map-get($font-weights, bold);
   }
 }
