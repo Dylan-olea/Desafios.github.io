@@ -8,12 +8,7 @@ body,
 html {
   font-family: "Teko", sans-serif;
   color: black;
-  background-image: linear-gradient(
-    to top,
-    #ebf2f7,
-    #0099ff,
-    rgb(94, 168, 218)
-  );
+  background-image: linear-gradient(to top, #ebf2f7, #0099ff, rgb(94, 168, 218));
   background-repeat: no-repeat;
   height: 100%;
   grid-template-rows: auto 1fr auto;
@@ -32,6 +27,16 @@ h1 {
 
 h2 {
   text-align: center;
+}
+
+.contenedor__3d--titulo, .contenedor__3d--texto {
+  font-weight: 700;
+}
+.contenedor__3d--titulo:hover, .contenedor__3d--texto:hover {
+  color: purple;
+}
+.contenedor__3d--texto:hover {
+  color: aqua;
 }
 
 section {

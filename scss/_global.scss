@@ -36,5 +36,17 @@ h2 {
 .contenedor {
   &__3d--titulo {
     font-weight: map-get($font-weights, bold);
+
+    &:hover {
+      color: purple;
+    }
+  }
+
+  &__3d--texto {
+    @extend .contenedor__3d--titulo;
+
+    &:hover {
+      color: aqua;
+    }
   }
 }
