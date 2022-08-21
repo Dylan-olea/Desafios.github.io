@@ -6,19 +6,8 @@ $primary: black;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-body,
-html {
+header {
   color: black;
-  background-image: linear-gradient(
-    to top,
-    #ebf2f7,
-    #0099ff,
-    rgb(94, 168, 218)
-  );
-  background-repeat: no-repeat;
-  height: 90%;
-  grid-template-rows: auto 1fr auto;
-  width: 90%;
-  margin: 0 auto;
-  font-size: 120%;
+  background-image: url(../img/fondo1.jpg);
+  height: 200px;
 }
