@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch scss/style.scss css/style.css"
+    "compile:sass": "sass --watch scss:css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Dylan-olea/Repositorio-de-Desafios/issues"
   },
-  "homepage": "https://github.com/Dylan-olea/Repositorio-de-Desafios#readme"
+  "homepage": "https://github.com/Dylan-olea/Repositorio-de-Desafios#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
 }
