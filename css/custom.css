@@ -10761,9 +10761,17 @@ textarea.form-control-lg {
 }
 header {
   color: black;
+  background-image: url(../img/fondo1.jpg);
   height: 150px;
-  background-position: center;
+  background-position: left center;
   background-size: cover;
+  opacity: 0.9;
+  border-radius: 1%;
+}
+
+main {
+  background-image: linear-gradient(to top, #ebf2f7, #0099ff, rgb(94, 168, 218));
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=custom.css.map */
