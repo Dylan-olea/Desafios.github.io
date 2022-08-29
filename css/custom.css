@@ -10769,8 +10769,8 @@ header {
   border-radius: 1%;
 }
 
-main {
-  background-image: linear-gradient(to top, #ebf2f7, #0099ff, #5ea8da);
+body {
+  background-image: linear-gradient(to left, #0099ff, #5ea8da);
   background-repeat: no-repeat;
 }
 
