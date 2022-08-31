@@ -53,14 +53,42 @@
         </div>
       </nav>
     </header>
-    <main>
-      <div class="conteiner text-center">
-        <h1 class="row-cols-6">
-          Si queres mantener mas contacto con nosotros podes dejar tu mail asi
-          te enviamos mensajes sobre novedades,descuesntos,promociones,etc.
-        </h1>
-      </div>
-    </main>
+    <div class="conteiner text-center">
+      <h1 class="row-cols-6">
+        Si queres mantener mas contacto con nosotros podes dejar tu mail asi te
+        enviamos mensajes sobre novedades,descuesntos,promociones,etc.
+      </h1>
+    <form action="">
+      <fieldset>
+        <legend>Formulario de contacto:</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido">
+        <br>
+
+        <label for="Correo Electronico">  Mail:</label>
+        <input type="text" name="correo" id="correo">
+
+        <div>hombre
+          <input type="radio" name="sexo" id="hombre">
+          mujer
+          <input type="radio" name="sexo" id="mujer">
+        </div>
+        
+        <div>Acepta terminos y condiciones.Se enviara mail a tu correo sobre promociones y descuentos en tus impresiones
+          <input type="checkbox" name="acepta" value="1">
+        </div>
+        <br>
+
+        <label for="mensaje">Escriba su consulta aca:</label>
+        <textarea name="mensaje" id="mensaje" cols="100" rows="5" ></textarea>
+        <br>
+        <input type="submit" value="Enviar formulario">
+        <input type="reset" value="Limpiar formulario">
+      </fieldset>
+    </form>
     <script src="js/bootstrap.js"></script>
   </body>
 </html>
