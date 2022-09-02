@@ -4,6 +4,8 @@ $font-family-base: "Oswald", sans-serif;
 
 $primary: black;
 $secondary: #0099ff;
+$card-border-radius: $border-radius;
+$card-box-shadow: null;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
