@@ -5,7 +5,9 @@ $font-family-base: "Oswald", sans-serif;
 $primary: black;
 $secondary: #0099ff;
 $card-border-radius: 2;
-$card-box-shadow: null;
+
+$carousel-control-color: #145985;
+$carousel-control-opacity: 0.9;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -25,9 +27,16 @@ body {
 }
 
 .nav-link {
-  color: #175985;
+  color: $carousel-control-color;
 }
 
 .navbar-brand {
   color: #1d7ebe;
+}
+
+.card {
+  max-width: 90%;
+}
+
+.carousel-item {
 }
