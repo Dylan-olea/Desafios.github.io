@@ -5818,7 +5818,7 @@ textarea.form-control-lg {
   text-align: center;
   background: none;
   border: 0;
-  opacity: 0.9;
+  opacity: 0.5;
   transition: opacity 0.15s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -10788,7 +10788,6 @@ img {
 .card {
   color: #1d7ebe;
   max-width: 90%;
-  border-radius: 6%;
 }
 
 .carousel-caption {
