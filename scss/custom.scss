@@ -4,10 +4,18 @@ $font-family-base: "Oswald", sans-serif;
 
 $primary: black;
 $secondary: #0099ff;
-$card-border-radius: 2;
+$info: #145985;
+
+$card-border-radius: 6%;
 
 $carousel-control-color: #145985;
 $carousel-control-opacity: 0.9;
+$carousel-indicator-active-bg: $info;
+$carousel-caption-width: 90%;
+$carousel-caption-padding-y: 1.25rem;
+$carousel-caption-spacer: 1.25rem;
+
+$carousel-control-icon-width: 2rem;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -18,7 +26,6 @@ header {
   background-position: left center;
   background-size: cover;
   opacity: 0.9;
-  border-radius: 1%;
 }
 
 body {
@@ -34,9 +41,25 @@ body {
   color: #1d7ebe;
 }
 
-.card {
-  max-width: 90%;
+img {
+  border-radius: $card-border-radius;
 }
 
-.carousel-item {
+.card {
+  color: #1d7ebe;
+  max-width: 90%;
+  border-radius: $card-border-radius;
+}
+
+.carousel-caption {
+  color: $info;
+}
+
+.carousel-indicators {
+  color: $info;
+}
+
+.carousel {
+  width: $carousel-caption-width;
+  padding: $carousel-caption-padding-y;
 }
