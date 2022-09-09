@@ -64,41 +64,72 @@
       </nav>
     </header>
     <div class="container text-center">
-      <h1 class="row-cols-6">
-        Si queres mantener mas contacto con nosotros podes dejar tu mail asi te
-        enviamos mensajes sobre novedades,descuesntos,promociones,etc.
-      </h1>
-    <form action="">
-      <fieldset>
-        <legend>Formulario de contacto</legend>
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre">
-        <br>
-        <label for="apellido">Apellido:</label>
-        <input type="text" name="apellido" id="apellido">
-        <br>
-
-        <label for="Correo Electronico">  Mail:</label>
-        <input type="text" name="correo" id="correo">
-
-        <div>hombre
-          <input type="radio" name="sexo" id="hombre">
-          mujer
-          <input type="radio" name="sexo" id="mujer">
+      <form class="row g-3">
+        <h1 class="mt-4"> Si quieres mantener al tanto sobre precios, promociones, descuentos o asesoramiento para tu impresora. llena el siguiente formulario para no perderte nada.</h1>
+        <p class="">formuluario: </p>
+        <div class="col-md-12">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
         </div>
-        
-        <div>Acepta terminos y condiciones.Se enviara mail a tu correo sobre promociones y descuentos en tus impresiones
-          <input type="checkbox" name="acepta" value="1">
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="inputnombre">
         </div>
-        <br>
-
-        <label for="mensaje">Escriba su consulta aca:</label>
-        <textarea name="mensaje" id="mensaje" cols="100" rows="5" ></textarea>
-        <br>
-        <input type="submit" value="Enviar formulario">
-        <input type="reset" value="Limpiar formulario">
-      </fieldset>
-    </form>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="inputapellido">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCiudad">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Provincias</label>
+          <select id="inputState" class="form-select">
+            <option selected>...</option>
+            <option>Buenos Aires</option>
+            <option>Ciudad Autónoma de Buenos Aires </option>
+            <option>Tucuman</option>
+            <option>Catamarca</option>
+            <option>Chaco</option>
+            <option>Chubut</option>
+            <option>Córdoba</option>
+            <option>Corrientes</option>
+            <option>Entre Ríos</option>
+            <option>Formosa</option>
+            <option>Jujuy</option>
+            <option>La Pampa</option>
+            <option>La Rioja</option>
+            <option>Mendoza</option>
+            <option>Misiones</option>
+            <option>Neuquén</option>
+            <option>Río Negro</option>
+            <option>Salta</option>
+            <option>San Juan</option>
+            <option>San Luis</option>
+            <option>Santa Cruz</option>
+            <option>Santa Fe</option>
+            <option>Santiago del Estero</option>
+            <option>Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">codigo Postal</label>
+          <input type="text" class="form-control" id="inputCodigo">
+        </div>
+        <div class="col-md-12">
+          <button type="submit" class="btn btn-primary">enviar</button>
+        </div>
+      </form>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 mb-4 mt-4">
+          <div class="card p-1">
+            <img src="../img/gracias1.jpg" class="card-img-top" alt="..." />
+          </div>
+        </div>
+      </div>
+      </div>
     <footer class="conteiner text-center">
       <h3>Diseñada y desarollada por Dylan olea, Todos los derechos reservados.
       </h3>
