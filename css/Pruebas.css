@@ -1,13 +1,29 @@
-.card {
-  display: flex;
-  flex-wrap: wrap;
+body {
+  margin: 0 auto;
+  width: 90%;
+  background-image: url(/img/fondo1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.image {
-  flex: 1 1 120px;
-  aspect-ratio: 1 / 1;
+header {
+  text-align: center;
+  font-size: 160%;
 }
 
-.content {
-  flex: 1 1 200px;
+ul {
+  list-style: none;
+}
+
+main {
+  font-family: "Teko", sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 120%;
+}
+
+.color {
+  color: peru;
+  font-size: 220%;
 }
